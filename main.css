@@ -78,3 +78,23 @@ body {
     z-index: -1000;
     overflow: hidden;
 }
+#dai{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(230, 228, 238);
+    height: 25px;
+    width: 57px;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0
+    rgba(255, 253, 253, 0.24), 0 10px 40px 0
+    rgba(255, 252, 252, 0.19);
+    font-style: italic;
+    border: 1px solid whitesmoke;
+}
