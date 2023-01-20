@@ -12,7 +12,7 @@ h2 {
     font-style: italic;
     margin-top: 1%;
     margin-bottom: 1%;
-}
+  }
 div {
     font-size: 30px;
     text-align: center;
@@ -34,9 +34,8 @@ button {
     width: 250px;
     text-align: left;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 5px 5px 0
-    rgba(255, 253, 253, 0.24), 0 10px 40px 0
-    rgba(255, 252, 252, 0.19);
+    box-shadow: 0 5px 5px 0 rgba(255, 253, 253, 0.24),
+      0 10px 40px 0 rgba(255, 252, 252, 0.19);
     font-style: italic;
     border: 1px solid whitesmoke;
 }
@@ -49,7 +48,7 @@ button:active {
     transform: translateY(1px);
 }
 a {
-    color:rgb(230, 228, 238);
+    color: rgb(230, 228, 238);
 }
 #avatar {
     border-radius: 50%;
@@ -57,18 +56,15 @@ a {
     width: 30%;
     border: 1px solid whitesmoke;
 }
-html{
-    background-repeat: no-repeat;
-}
 body {
-    background-image: black;
+    background-color: black;
 }
 .Thanks {
     font-size: 40px;
     font-weight: 350;
 }
 #vd_background {
-    position:absolute;
+    position: absolute;
     bottom: 0px;
     right: 0px;
     min-width: 100%;
@@ -78,7 +74,7 @@ body {
     z-index: -1000;
     overflow: hidden;
 }
-#dai{
+#dai {
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -92,9 +88,20 @@ body {
     margin-top: 0%;
     margin-bottom: 0%;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 5px 5px 0
-    rgba(255, 253, 253, 0.24), 0 10px 40px 0
-    rgba(255, 252, 252, 0.19);
+    box-shadow: 0 5px 5px 0 rgba(255, 253, 253, 0.24),
+    0 10px 40px 0 rgba(255, 252, 252, 0.19);
     font-style: italic;
     border: 1px solid whitesmoke;
 }
+#dai:active {
+    background-color: rgb(33, 35, 63);
+    box-shadow: 0 2px rgb(39, 35, 35);
+    transform: translateY(1px);
+}
+#dai:hover {
+    background-color: rgb(33, 35, 63);
+}
+#key-input {
+    border-radius: 10px 10px 10px 10px;
+}
+  
