@@ -1,6 +1,8 @@
 var correctKey = "dai2k4bn";
 var formShown = false;
 document.getElementById("avatar").addEventListener("click", function () {
+  var video = document.getElementById("sealook");
+  video.pause();
   if (formShown) {
     document.getElementById("key-form").style.display = "none";
     formShown = false;
