@@ -27,7 +27,7 @@ function copyText(text) {
       alert("copied " + text + " successfully");
     },
     function () {
-      alert("Copy failed. Please try again.");
+      alert("Copy failed. Please Change Browser.");
     }
   );
 }
